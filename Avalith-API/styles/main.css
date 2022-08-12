@@ -1,0 +1,31 @@
+body {
+  font-display: swap;
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+  background-color: var(--bg-violet);
+}
+
+/* navbar */
+.text {
+  display: flex;
+}
+.btn-group{
+  padding: 8rem;
+         display: flex;
+         justify-content: center;
+
+}
+/* style="padding: 8rem;
+         display: flex;
+         justify-content: center;" */
+.m-1 {
+  margin: 0.25rem !important;
+  padding: 1rem;
+}
+.text-center.my-3 {
+  font-family: "Rubik Distressed", cursive;
+  font-family: "Rubik Iso", cursive;
+  font-family: "Space Mono", monospace;
+  font-family: "Special Elite", cursive;
+}
