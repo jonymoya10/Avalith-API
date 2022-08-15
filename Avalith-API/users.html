@@ -28,6 +28,7 @@
     />
   <body>
     <header>
+      <!-- Navbar -->
       <nav class="navbar bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -48,21 +49,20 @@
     </header>
     <main class="container-fluid py-2">
       <h2 class="text-center my-3">Tabla</h2>
-      <div class="container">
-        <table class="table">
-          <thead>
+      <!-- table -->
+      <table class="table table-striped table-bordered">
+        <thead>
             <tr>
-              <th scope="col">ID</th>
-              <th scope="col">Name</th>
-              <th scope="col" class="email-table">Email</th>
-              <th scope="col">Phone</th>
-              <th scope="col" class="city-table">User city</th>
-              <th scope="col" class="company-table">Company name</th>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Ciudad</th>
+                <th>Teléfono</th>
+                <th>Empresa</th>
             </tr>
-          </thead>
-          <tbody id="table-row"></tbody>
-        </table>
-      </div>
+        </thead>
+        <tbody id="user-info">
+        </tbody>
     </main>
     <footer class="bg-light text-center text-white">
       <!-- Grid container -->
@@ -152,6 +152,8 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
-    <script src="/scripts/table.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="./scripts/users.js"></script>
   </body>
 </html>

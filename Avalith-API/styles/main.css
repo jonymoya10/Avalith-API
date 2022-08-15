@@ -6,7 +6,6 @@ body {
   background-color: var(--bg-violet);
 }
 
-/* navbar */
 .text {
   display: flex;
 }
@@ -16,9 +15,7 @@ body {
          justify-content: center;
 
 }
-/* style="padding: 8rem;
-         display: flex;
-         justify-content: center;" */
+
 .m-1 {
   margin: 0.25rem !important;
   padding: 1rem;

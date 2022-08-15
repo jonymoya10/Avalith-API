@@ -1,70 +1,22 @@
-const urlBase = "https://jsonplaceholder.typicode.com/users";
+const form = document.getElementById("form");
+const d = document;
 
-fetch(urlBase)
-  .then((response) => response.json())
-  .then((data) => userDataTable(data));
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
 
-const userDataTable = (data) => {
-  let user = data;
-  let body = ``;
-  user.forEach(({ id, name, email, address, phone, website }) => {
-    body += `
-        <tr class="user-row">
-          <td class="col">${id}</td>
-          <td class="col">${name}</td>
-          <td class="col">${email}</td>
-          <td class="col">${address.city}</td>
-          <td class="col">${phone}</td>
-          <td class="col">${website}</td>
-        </tr>`;
-  });
-  document.getElementById("usersTable").innerHTML = body;
-};
-
-//PROMISES WITH AXIOS
-
-const userData = async () => {
-  let body = ``;
-  try {
-    const dataUsers = await axios(urlBase);
-
-    dataUsers.data.forEach(({ id, name, email, address, phone, website }) => {
-      body += `
-  <div>
-    <div class="user-card">
-      <div class="user-content">
-        <div class="col-left">
-          <img src="../assets/icons/users.png" width="100px">
-        </div>
-        <div class="col-right">
-          <p class="user-title">${name}</p>
-          <p class="user-text">ID: 
-            <span class="user-data">${id}</span>
-          </p>
-          <p class="user-text">Email: 
-            <span class="user-data">${email}</span>
-          </p>
-          <p class="user-text">City: 
-            <span class="user-data">${address.city}</span>
-          </p>
-          <p class="user-text">Phone number: 
-            <span class="user-data">${phone}</span>
-          </p>
-          <p class="user-text">Website: 
-            <span class="user-data">${website}</span>
-          </p>
-        </div>
-      </div>
-      <div class="user-effect">
-        <h3>Info</h3>
-      </div>
-    </div>           
-  </div>`;
-    });
-    document.getElementById("usersInfo").innerHTML = body;
-  } catch (error) {
-    console.log(error);
+  const user = d.getElementById("user").value;
+  const email = d.getElementById("email").value;
+  const comments = d.getElementById("comments").value;
+  const regExUserName = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/;
+  const regExUserEmail =
+    /^[a-z0-9]+(\.[_a-z0-9]+)@[a-z0-9-]+(\.[a-z0-9-]+)(\.[a-z]{2,15})$/;
+  if (!regExUserName.test(user)) {
+    console.error("El nombre solo debe incluir letras");
   }
-};
-
-userData();
+  if (!regExUserEmail.test(email)) {
+    console.error(
+      "El e-mail debe tener @, un . y al menos dos caracteres luego del ."
+    );
+  }
+  console.table(`user: ${user} \nemail: ${email} \ncomments: ${comments}`);
+});
