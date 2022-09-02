@@ -14,8 +14,7 @@
 <img align="right" height="270px" width="450px" alt="GIF" src="https://64.media.tumblr.com/9d6d07988284e7a8ab34b7470a0745c2/tumblr_owp8lgJhvw1uaqtxco1_540.gif" />
 <br />
 
-### 🙋‍♂️,
-### Desarrollador Front End.
+### Desarrollador Front End
 #### - 🥀 Learning GraphQl  <code><img height="20" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/graphql/graphql.png"></code>,NextJs <code> <img height="20" width="16" src="https://assets.vercel.com/image/upload/v1538361091/repositories/next-js/next-js.png"> </code> &Typescript <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>.
 
 
