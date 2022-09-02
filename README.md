@@ -30,22 +30,12 @@
 
 </p>
 
-### - Blogs 🌱
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/svg/blogs/devto.svg"> 
-</p>
-
-### - Podcast ⚡️
-<p align="center">
-  <img src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/svg/streaming/podcast.svg"> 
-</p>
 
 
 ***********************************
 
-#### Thank You-🙏🏼
+#### Gracias-🙏🏼
 
 
 
-⭐️ From [8bithemant](https://github.com/8bithemant)
+⭐️ From [Jonathan Moyano](https://github.com/jonymoya10/)
