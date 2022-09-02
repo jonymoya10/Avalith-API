@@ -11,7 +11,7 @@
 
 <br />
 
-<img align="right" height="270px" width="450px" alt="GIF" src="https://media.giphy.com/media/paVD7uL8uz6us/giphy.gif" />
+<img align="right" height="270px" width="450px" alt="GIF" src="https://64.media.tumblr.com/9d6d07988284e7a8ab34b7470a0745c2/tumblr_owp8lgJhvw1uaqtxco1_540.gif" />
 <br />
 
 ### 🙋‍♂️,
